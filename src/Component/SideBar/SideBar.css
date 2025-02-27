@@ -1,0 +1,43 @@
+#header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: space-between; /* Căn trái - giữa - phải */
+    align-items: center; /* Căn giữa theo chiều dọc */ 
+    z-index: 1000;
+    color: white;
+    height: 80px;
+}
+
+.sidebar{
+    text-align: center; /* Căn giữa nội dung trong từng div */;
+    flex: 1;
+  }
+ .header3 {
+    display: flex;
+    flex-direction: row-reverse;
+ } 
+
+.sidebar ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+  color: white; /* Đặt màu chữ (tùy chỉnh theo giao diện của bạn) */
+}
+.sidebar a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: white; /* Đặt màu chữ (tùy chỉnh theo giao diện của bạn) */
+    padding: 20px 30px;
+    font-size: 12px;
+}
+.sidebar a:hover{
+    color: rgb(183, 186, 187);
+    cursor: pointer;
+}
+.sidebar ul {
+    display: flex; /* Hiển thị theo chiều ngang */
+    list-style: none; /* Loại bỏ chấm đầu dòng */
+    padding: 0; /* Loại bỏ padding mặc định */
+    margin: 0; /* Loại bỏ margin mặc định */
+  }
