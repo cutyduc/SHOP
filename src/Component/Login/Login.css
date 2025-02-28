@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.Page1{
+        width: 100vw;
+        height: 100vh;
+        background-image: url("./../../../public/IMG/IMG1.jpg"); /* Đặt ảnh làm nền */
+        background-size: cover; /* Ảnh sẽ phủ kín div mà không méo */
+        background-position: center; /* Căn giữa ảnh */
+        background-repeat: no-repeat; /* Không lặp lại ảnh */
+        display: flex;
+        flex-direction: column; /* Sắp xếp nội dung theo chiều dọc */
+        justify-content: flex-end; /* Đẩy nội dung xuống dưới */
+        align-items: center; /* Căn giữa theo chiều ngang */
+        padding-bottom: 20px; /* Tạo khoảng cách với mép dưới */
+}
+.login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.login-img{
+    flex:0.6;
+    background-image: url("./../../../public/IMG/IMG1.jpg"); /* Đặt ảnh làm nền */
+    background-size: cover; /* Ảnh sẽ phủ kín div mà không méo */
+    background-position: center; /* Căn giữa ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+.login-form{
+    flex: 0.4;
+    background-color: aliceblue;
+}
+.login-return{
+    
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.login-return:hover{
+    color: black;
+    
+}

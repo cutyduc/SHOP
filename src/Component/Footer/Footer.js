@@ -2,6 +2,9 @@ import './Footer.css';
 
 
 function Footer() {
+  const scrollToTop = () => { // Hàm cuộn lên đầu trang
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <div className="footer">
       <div className="ssidebar">
@@ -11,7 +14,7 @@ function Footer() {
       <div className="content">
         {/* Footer1 */}
         <div className="footer1">
-            <h1 >Massimo Dutti</h1>
+            <h1 onClick={scrollToTop}>Massimo Dutti</h1>
         </div>
         {/* Footer2 */}
         <div className="footer2">
@@ -20,7 +23,7 @@ function Footer() {
               <div className="footer2-1-1">
                 <h5>NEWSLETTER</h5>
                 <p>Đăng ký nhận bản tin và chúng tôi sẽ gửi thông tin về các sản phẩm và xu hướng mới.</p>
-                <button>Đăng ký</button>
+                <button >Đăng ký</button>
               </div>
               <div className="footer2-1-2">
                 <h5>SOCIAL</h5>

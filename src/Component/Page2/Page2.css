@@ -16,15 +16,4 @@
         align-items: center; /* Căn giữa theo chiều ngang */
         padding-bottom: 20px; /* Tạo khoảng cách với mép dưới */
 }
-.a1{
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-.a1:hover{
-    background-color: rgba(0, 0, 0, 0.99);
-    cursor: pointer;
-}
 
