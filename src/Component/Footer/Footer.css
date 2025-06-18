@@ -22,7 +22,11 @@
     width: 40%;
     height: 100%;
     line-height: 100px;
-    font-size: 20px;
+}
+.footer1 a{
+    text-decoration: none; /* Bỏ gạch chân nếu cần */
+    color: #ffffff;
+    font-size: 40px; /* Cỡ chữ */
 }
 .footer2{
     display: flex;

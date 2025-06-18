@@ -14,7 +14,7 @@ function Footer() {
       <div className="content">
         {/* Footer1 */}
         <div className="footer1">
-            <h1 onClick={scrollToTop}>Massimo Dutti</h1>
+            <a href='/'>Massimo Dutti</a>
         </div>
         {/* Footer2 */}
         <div className="footer2">

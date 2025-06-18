@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Page1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./../../../public/IMG/IMG1.jpg"); /* Đặt ảnh làm nền */
+  background-size: cover; /* Ảnh sẽ phủ kín div mà không méo */
+  background-position: center; /* Căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  display: flex;
+  flex-direction: column; /* Sắp xếp nội dung theo chiều dọc */
+  justify-content: flex-end; /* Đẩy nội dung xuống dưới */
+  align-items: center; /* Căn giữa theo chiều ngang */
+  padding-bottom: 20px; /* Tạo khoảng cách với mép dưới */
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.login-img {
+  flex: 0.6;
+  background-image: url("./../../../public/IMG/IMG1.jpg"); /* Đặt ảnh làm nền */
+  background-size: cover; /* Ảnh sẽ phủ kín div mà không méo */
+  background-position: center; /* Căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+}
+.login-form {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+.login-return {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.login-return:hover {
+  color: black;
+}
+.login-text {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  float: right;
+  padding: 20px 40px;
+  font-style: bold;
+  font-weight: bold;
+}
+.login-text:hover {
+  color: rgb(112, 111, 111);
+}
+.login-form1 {
+  flex: 0.1;
+}
+.login-form2 {
+  flex: 0.9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-container {
+  width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.checkbox-group label {
+  font-size: 14px;
+}
+
+.submit-btn {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.submit-btn:hover {
+  background-color: gray;
+}
